@@ -10,4 +10,6 @@
     <string name="build_button">BUILD IT BIGGER</string>
     <string name="bacon_button">BACON READER</string>
     <string name="capstone_button">CAPSTONE: MY OWN APP</string>
+
+    <string name="footer">Designed by Emerset Farquharson</string>
 </resources>

@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
-    android:background="#fffffff8">
+    android:background="#ffd1f8ff">
 
     <TextView
         android:layout_gravity="center"
@@ -20,7 +20,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title"
         android:layout_marginTop="5dp"
-        android:id="@+id/title" />
+        android:id="@+id/title"
+        android:textColor="#ff494949" />
 
     <Button
         android:layout_gravity="center"
@@ -81,6 +82,16 @@
         android:layout_marginTop="28dp"
         android:background="#ff6d8aff"
         android:textColor="#fffff543" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/footer"
+            android:layout_marginTop="28dp"
+            android:id="@+id/footer"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ff545454" />
 
     </LinearLayout>
 
